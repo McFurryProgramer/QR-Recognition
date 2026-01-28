@@ -68,7 +68,7 @@ def decode_qr(image_path):
 
 # Основной блок программы
 
-image_path = "images/qr1.png"
+image_path = "qr1.png"
 print("Этап 1: Предварительная обработка и поиск контуров")
 preprocess_and_find_qr_contours(image_path)
 
